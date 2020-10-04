@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>How the Internet works!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
+<body>
+
+
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+
+    <div class="col-sm-16">
+
+      <img class="img-thumbnail" src="images/dns.jpg" alt="Domain Name System!">
+
+      <p></p>
+
+      <p>Domain Name System(DNS) is a vital link in the Internet infrastructure. It is the bridge between the user friendly names that make the Internet easy to use and the complex IP address required on the router and server sides. Computers and devices on the Internet use an IP address to route the request to the site you are trying to reach. When the user tries to connect to a website, the translation to the IP address is done through a process called DNS name resolution. It is the DNS server that performs this resolution.</p>
+
+      <p>DNS is a hierarchical and distributed naming system for devices on the Internet. Like other critical infrastructure that supports the Internet, DNS is highly decentralized system that supports a distributed directory service for devices on the Internet.</p>
+
+    <p></p>
+
+      <p>When you connect to a network, it also provides access to a DNS server. In small networks, the router might itself provide this service. In large networks, there will be one or more dedicated DNS servers that provide this service. Due to the decentralized nature of the system, the "directory" is spread across different computers on the Internet. If the local DNS server can resolve a query, it'll do so itself. When a devices queries a DNS server for an address it does not have, it sends the request to another DNS server(s) if a resolution can be obtained in a reasonable time. The local DNS server also caches requests for future use so it can resolve the requests itself instead of having to reach out to other servers.</p>
+
+
+      <p></p>
+
+      <p>The DNS server in the local network is called Start of Authority(SOA) for that domain. Over time, the results from looking up hosts at the SOA will propagate to other DNS servers. How long these results stay on the remote servers depends on the Time To Live (TTL) parameter which each DNS server can set for it's results propagating across the Internet.</p>
+      
+      <br>
+
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p></p>
+</div>
+
+</body>
+</html>
