@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>How the Internet works!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
+<body>
+
+
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+
+    <div class="col-sm-16">
+
+      <img class="img-thumbnail" src="images/address.jpg" alt="IP Address!">
+
+      <p></p>
+
+      <p> How do you get around the Internet? When you type an address like cnn.com in your browser how does it know where to go? This is where the IP addresses come in. The servers that host the website each have IP addresses. Domain Name System(DNS) servers link the two together, the website addresses (such as cnn.com) to their IP addresses(151.101.65.67). When someone types in the website address like cnn.com, their computer looks up the IP address of the site using the DNS servers and then routes the request to that IP address. </p>
+
+      <p>Traditionally, IP address have been 32 bit, a quartet of 8 bit numbers, that allow addressing of upto 4 billion devices. Due to the explosive growth of the connected devices, this is proving to be insufficient, so a new scheme, called IPV6, in 128bit size, is being implemented that will allow 340 undecillion IP addresses.</p>
+
+      <img class="img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ipv6_address_leading_zeros.svg/2560px-Ipv6_address_leading_zeros.svg.png" alt="IPV6 Address!">
+
+    <p></p>
+      <p>Once the IP address is resolved, the browser sends a request to the server using the IP address. The request could be quite large, so to ensure successful delivery, the request is broken into small manageable chunks called <a href="https://www.computerhope.com/jargon/p/packet.htm">Packets.</a>. Each packet has, among other things, a source and destination address, a portion  of the information, and is routed independently on the network by a routers. A router, on both ends, connects a local network to the Internet.</p>
+
+      <p></p>
+
+      <p>A router is a special computer that is designed to receive, analyze and move incoming packets to another router or destination. The Internet is a collection of independent routers spread out across multiple networks and geographical area. This collection forms a backbone of the Internet which ensures there is always a redundant path between a source and a destination. Even if part of the network is unavailable, routers are able to provide a route which ensures communication is not interrupted. </p>
+
+
+
+      <br>
+
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p></p>
+</div>
+
+</body>
+</html>
